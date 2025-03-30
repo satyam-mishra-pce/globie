@@ -1,18 +1,17 @@
 'use client';
 
 import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Lobby() {
-  const router = useRouter();
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-background ">
         <div className="bg-card rounded-3xl border shadow-lg w-full max-w-md mx-4 overflow-hidden">
 
         <Image 
-          src={'/assets/lobby.jpg'}
+          src={'/assets/taj-mahal.jpg'}
           height={1000}
           width={1000}
           alt="Background"
@@ -24,17 +23,18 @@ export default function Lobby() {
           <div className="text-center space-y-2">
             <h1 className="text-2xl font-bold">Monuments</h1>
             <p className="text-muted-foreground text-sm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam culpa optio molestias provident unde fuga saepe numquam veritatis, voluptatem nihil, eum nesciunt neque fugiat tempora. Illum repellat illo iure cum.
+              Embark on a global journey to discover iconic monuments. Navigate the world map, locate historical landmarks, and learn fascinating stories about these architectural marvels.
             </p>
           </div>
 
-          <Button 
-            size="lg"
-            className="w-full rounded-full"
-            onClick={() => router.push('/play')}
+          <Link href="/explore/monuments">
+            <Button 
+              size="lg"
+              className="w-full rounded-full"
           >
-            Start Game
+            Start Exploring
           </Button>
+          </Link>
         </div>
         </div>
       </div>

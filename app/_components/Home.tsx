@@ -1,5 +1,7 @@
 "use client";
 
+import Lobby from "./Lobby";
+
 export default function Home() {
-  return <div>Home</div>;
+  return <Lobby />;
 }

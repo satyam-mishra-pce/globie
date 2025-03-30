@@ -1,13 +1,11 @@
 "use client";
 import mapboxgl, { Map } from "mapbox-gl";
 import { useEffect, useRef } from "react";
-import { MAP_CONFIG, MAP_FOG_CONFIG } from "./config";
+import { MAP_CONFIG, MAP_FOG_CONFIG, REQUIRED_ZOOM_LEVEL } from "./config";
 import { spinGlobe } from "./utils";
 import "mapbox-gl/dist/mapbox-gl.css";
 import useMapStore from "./store";
 import { useGlobeData } from "../../_contexts/globe-data";
-
-const REQUIRED_ZOOM_LEVEL = 8;
 
 const MapboxMap = () => {
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
