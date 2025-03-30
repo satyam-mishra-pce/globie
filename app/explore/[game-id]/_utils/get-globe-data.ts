@@ -21,7 +21,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Taj Mahal",
                 description: "Taj Mahal is a mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India.",
-                hint: "This was built by a Mughal emperor in memory of his wife.",
+                hint: "Located in South Asia, in the Northern Hemisphere.",
                 image: "/assets/taj-mahal.jpg",
                 location: {
                     latitude: 27.1751,
@@ -31,7 +31,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Leaning Tower of Pisa",
                 description: "The Leaning Tower of Pisa is a freestanding bell tower, the campanile di Giotto, in the Italian city of Pisa, known worldwide for its nearly four-degree lean.",
-                hint: "This is the most photographed tower in the world.",
+                hint: "Found in Southern Europe, on the Mediterranean coast.",
                 image: "/assets/leaning-tower.jpg",
                 location: {
                     latitude: 43.7230,
@@ -41,7 +41,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Eiffel Tower",
                 description: "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
-                hint: "This iconic tower was built for the 1889 World's Fair.",
+                hint: "Located in Western Europe, in the Northern Hemisphere.",
                 image: "/assets/eiffel-tower.jpg",
                 location: {
                     latitude: 48.8584,
@@ -51,7 +51,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Great Wall of China",
                 description: "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials.",
-                hint: "This wall stretches over 13,000 miles across northern China.",
+                hint: "Found in East Asia, stretching across the Northern Hemisphere.",
                 image: "/assets/great-wall.jpg",
                 location: {
                     latitude: 40.4319,
@@ -61,7 +61,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Statue of Liberty",
                 description: "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor.",
-                hint: "This statue was a gift from France to the United States.",
+                hint: "Located in North America, on the Atlantic coast.",
                 image: "/assets/statue-of-liberty.jpg",
                 location: {
                     latitude: 40.6892,
@@ -76,7 +76,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Mount Vesuvius",
                 description: "Mount Vesuvius is a somma-stratovolcano located on the Gulf of Naples in Campania, Italy.",
-                hint: "This volcano famously destroyed the ancient Roman city of Pompeii.",
+                hint: "Found in Southern Europe, in the Northern Hemisphere.",
                 image: "/assets/vesuvius.jpg",
                 location: {
                     latitude: 40.8213,
@@ -86,7 +86,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Mount Fuji",
                 description: "Mount Fuji is Japan's tallest mountain and an active stratovolcano.",
-                hint: "This iconic mountain is Japan's highest peak.",
+                hint: "Located in East Asia, in the Northern Hemisphere.",
                 image: "/assets/mount-fuji.jpg",
                 location: {
                     latitude: 35.3606,
@@ -96,7 +96,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Kilauea",
                 description: "Kilauea is an active shield volcano in the Hawaiian Islands.",
-                hint: "This is one of the world's most active volcanoes.",
+                hint: "Found in the Pacific Ocean, in the Northern Hemisphere.",
                 image: "/assets/kilauea.jpg",
                 location: {
                     latitude: 19.4213,
@@ -106,7 +106,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Mount Etna",
                 description: "Mount Etna is an active stratovolcano on the east coast of Sicily, Italy.",
-                hint: "This is Europe's tallest active volcano.",
+                hint: "Located in Southern Europe, on the Mediterranean Sea.",
                 image: "/assets/mount-etna.jpg",
                 location: {
                     latitude: 37.7510,
@@ -116,7 +116,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Popocatépetl",
                 description: "Popocatépetl is an active stratovolcano in central Mexico.",
-                hint: "This volcano's name means 'Smoking Mountain' in Nahuatl.",
+                hint: "Found in North America, in the Northern Hemisphere.",
                 image: "/assets/popocatepetl.jpg",
                 location: {
                     latitude: 19.0233,
@@ -131,7 +131,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Maldives",
                 description: "The Maldives is a tropical nation in the Indian Ocean composed of 26 coral atolls.",
-                hint: "This country is known for its overwater bungalows.",
+                hint: "Located in the Northern Hemisphere, near the equator in the Indian Ocean.",
                 image: "/assets/maldives.jpg",
                 location: {
                     latitude: 3.2028,
@@ -141,7 +141,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Bora Bora",
                 description: "Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia.",
-                hint: "This island is famous for its turquoise lagoon.",
+                hint: "Found in the Southern Hemisphere, in the South Pacific Ocean.",
                 image: "/assets/bora-bora.jpg",
                 location: {
                     latitude: -16.5004,
@@ -151,7 +151,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Santorini",
                 description: "Santorini is one of the Cyclades islands in the Aegean Sea.",
-                hint: "This island is known for its white-washed buildings and blue domes.",
+                hint: "Located in Southern Europe, in the Mediterranean Sea.",
                 image: "/assets/santorini.jpg",
                 location: {
                     latitude: 36.3932,
@@ -161,7 +161,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Bali",
                 description: "Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs.",
-                hint: "This island is famous for its temples and yoga retreats.",
+                hint: "Found in Southeast Asia, in the Southern Hemisphere.",
                 image: "/assets/bali.jpg",
                 location: {
                     latitude: -8.3405,
@@ -171,7 +171,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Maui",
                 description: "Maui is the second-largest of the Hawaiian Islands at 727.2 square miles.",
-                hint: "This island is known for its world-famous beaches and the 'Road to Hana'.",
+                hint: "Located in the Northern Hemisphere, in the Pacific Ocean.",
                 image: "/assets/maui.jpg",
                 location: {
                     latitude: 20.7984,
@@ -186,7 +186,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Sahara Desert",
                 description: "The Sahara is the largest hot desert in the world and the third-largest desert overall.",
-                hint: "This desert covers most of North Africa.",
+                hint: "Located in North Africa, stretching across the Northern Hemisphere.",
                 image: "/assets/sahara.jpg",
                 location: {
                     latitude: 23.4162,
@@ -196,7 +196,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Namib Desert",
                 description: "The Namib is a coastal desert in southern Africa.",
-                hint: "This desert is home to the world's tallest sand dunes.",
+                hint: "Found in Southern Africa, in the Southern Hemisphere.",
                 image: "/assets/namib.jpg",
                 location: {
                     latitude: -24.7398,
@@ -206,7 +206,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Atacama Desert",
                 description: "The Atacama Desert is a plateau in South America, covering a 1,000-kilometre strip of land on the Pacific coast.",
-                hint: "This is the driest non-polar desert in the world.",
+                hint: "Located in South America, in the Southern Hemisphere.",
                 image: "/assets/atacama.jpg",
                 location: {
                     latitude: -24.7398,
@@ -216,7 +216,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Gobi Desert",
                 description: "The Gobi Desert is a large desert region in Asia.",
-                hint: "This desert is known for its dinosaur fossils.",
+                hint: "Found in East Asia, in the Northern Hemisphere.",
                 image: "/assets/gobi.jpg",
                 location: {
                     latitude: 42.7951,
@@ -226,7 +226,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Mojave Desert",
                 description: "The Mojave Desert is the driest desert in North America.",
-                hint: "This desert is home to Death Valley.",
+                hint: "Located in North America, in the Northern Hemisphere.",
                 image: "/assets/mojave.jpg",
                 location: {
                     latitude: 35.0844,
@@ -241,7 +241,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Niagara Falls",
                 description: "Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge.",
-                hint: "This waterfall forms the border between Canada and the United States.",
+                hint: "Located in North America, on the border between two countries.",
                 image: "/assets/niagara.jpg",
                 location: {
                     latitude: 43.0791,
@@ -251,7 +251,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Victoria Falls",
                 description: "Victoria Falls is a waterfall on the Zambezi River in southern Africa.",
-                hint: "This waterfall is known as 'The Smoke that Thunders'.",
+                hint: "Found in Southern Africa, in the Southern Hemisphere.",
                 image: "/assets/victoria-falls.jpg",
                 location: {
                     latitude: -17.9243,
@@ -261,7 +261,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Iguazu Falls",
                 description: "Iguazu Falls is a waterfall system on the Iguazu River.",
-                hint: "This waterfall system forms the border between Argentina and Brazil.",
+                hint: "Located in South America, in the Southern Hemisphere.",
                 image: "/assets/iguazu.jpg",
                 location: {
                     latitude: -25.6953,
@@ -271,7 +271,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Angel Falls",
                 description: "Angel Falls is a waterfall in Venezuela.",
-                hint: "This is the world's highest uninterrupted waterfall.",
+                hint: "Found in South America, in the Northern Hemisphere.",
                 image: "/assets/angel-falls.jpg",
                 location: {
                     latitude: 5.9701,
@@ -281,7 +281,7 @@ const EXPLORATION_DATA: Record<string, ExplorationDataItem> = {
             {
                 name: "Yosemite Falls",
                 description: "Yosemite Falls is the highest waterfall in Yosemite National Park.",
-                hint: "This waterfall is located in California's Sierra Nevada mountains.",
+                hint: "Located in North America, in the Northern Hemisphere.",
                 image: "/assets/yosemite-falls.jpg",
                 location: {
                     latitude: 37.7561,
